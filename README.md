@@ -11,3 +11,10 @@
 - save chunks and embeddings in postgresql db
 - connect llm with db to create referencing
 - query llm with a simple ui
+
+### SetUp for WSL/Ubuntu (Windows Subsystem Linux)
+1. uv sync 
+2. 
+    - for WSL/Ubuntu: source .venv/bin/activate
+    - for Windows: .\venv\Scripts\Activate.ps1
+3. poe run
