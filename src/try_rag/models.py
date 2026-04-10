@@ -1,5 +1,10 @@
 from pydantic import BaseModel
-import pydantic_settings
+
+
+class RawModule(BaseModel):
+    module_tite: str | None
+    ects: str | None
+    optional: str
 
 
 class Module(BaseModel):
@@ -8,7 +13,7 @@ class Module(BaseModel):
     optional: bool
     competencies: str
     content: str
-    requirements: list["Module"] | None
+    requirements: list[str] | None
 
 
 class Document(BaseModel):

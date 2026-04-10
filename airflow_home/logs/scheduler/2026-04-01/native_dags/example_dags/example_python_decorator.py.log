@@ -1,0 +1,102 @@
+[2026-04-01T22:14:23.570+0200] {processor.py:161} INFO - Started process (PID=42872) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:14:23.573+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:14:23.575+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:23.574+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:14:23.625+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:14:23.967+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:23.965+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_python_decorator
+[2026-04-01T22:14:23.993+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:23.992+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_python_decorator
+[2026-04-01T22:14:24.015+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:24.014+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_python_decorator
+[2026-04-01T22:14:24.016+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:24.016+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:14:24.042+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:24.042+0200] {dag.py:3118} INFO - Creating ORM DAG for example_python_decorator
+[2026-04-01T22:14:24.043+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:24.043+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:14:24.099+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.545 seconds
+[2026-04-01T22:15:36.620+0200] {processor.py:161} INFO - Started process (PID=43003) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:15:36.623+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:15:36.626+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:36.625+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:15:36.670+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:15:36.734+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:36.733+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:15:36.769+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:36.769+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:15:36.833+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.232 seconds
+[2026-04-01T22:16:52.624+0200] {processor.py:161} INFO - Started process (PID=43152) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:16:52.628+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:16:52.630+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:52.629+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:16:52.665+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:16:52.720+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:52.719+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:16:52.752+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:52.752+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:16:52.818+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.210 seconds
+[2026-04-01T22:18:07.530+0200] {processor.py:161} INFO - Started process (PID=43307) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:18:07.536+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:18:07.539+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:07.538+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:18:07.585+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:18:07.647+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:07.646+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:18:07.700+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:07.699+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:18:07.794+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.287 seconds
+[2026-04-01T22:19:36.039+0200] {processor.py:161} INFO - Started process (PID=43496) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:19:36.043+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:19:36.046+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:36.045+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:19:36.377+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:19:36.407+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:36.407+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:19:36.429+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:36.428+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:19:36.485+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.465 seconds
+[2026-04-01T22:20:55.626+0200] {processor.py:161} INFO - Started process (PID=43654) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:20:55.641+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:20:55.644+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:55.643+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:20:55.684+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:20:55.744+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:55.744+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:20:55.788+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:55.787+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:20:55.857+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.249 seconds
+[2026-04-01T22:22:09.520+0200] {processor.py:161} INFO - Started process (PID=43803) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:22:09.525+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:22:09.528+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:09.526+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:22:09.579+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:22:09.640+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:09.640+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:22:09.675+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:09.674+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:22:09.738+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.235 seconds
+[2026-04-01T22:23:22.143+0200] {processor.py:161} INFO - Started process (PID=43946) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:23:22.159+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:23:22.161+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:22.160+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:23:22.210+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:23:22.279+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:22.278+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:23:22.333+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:22.332+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:23:22.409+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.286 seconds
+[2026-04-01T22:24:35.328+0200] {processor.py:161} INFO - Started process (PID=44121) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:24:35.343+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:24:35.346+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:35.345+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:24:35.388+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:24:35.464+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:35.464+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:24:35.506+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:35.505+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:24:35.585+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.275 seconds
+[2026-04-01T22:30:43.714+0200] {processor.py:161} INFO - Started process (PID=45742) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:30:43.717+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:30:43.720+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:43.718+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:30:43.764+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:30:44.013+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:44.012+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:30:44.034+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:44.034+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:30:44.089+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.404 seconds
+[2026-04-01T22:31:57.765+0200] {processor.py:161} INFO - Started process (PID=45932) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:31:57.769+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:31:57.772+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:57.771+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:31:57.812+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:31:57.865+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:57.865+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:31:57.902+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:57.901+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:31:57.974+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.230 seconds
+[2026-04-01T22:33:07.949+0200] {processor.py:161} INFO - Started process (PID=46255) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:33:07.953+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:33:07.956+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:07.954+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:33:07.997+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:33:08.046+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:08.045+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:33:08.083+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:08.082+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:33:08.151+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.220 seconds
+[2026-04-01T22:34:22.309+0200] {processor.py:161} INFO - Started process (PID=46463) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:34:22.318+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:34:22.322+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:22.320+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:34:22.375+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:34:22.425+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:22.424+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:34:22.453+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:22.453+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:34:22.505+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.217 seconds
+[2026-04-01T22:35:36.801+0200] {processor.py:161} INFO - Started process (PID=46728) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:35:36.817+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2026-04-01T22:35:36.820+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:36.819+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:35:36.860+0200] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py
+[2026-04-01T22:35:37.235+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:37.235+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:35:37.259+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:37.258+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2026-04-01T22:35:37.318+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py took 0.536 seconds

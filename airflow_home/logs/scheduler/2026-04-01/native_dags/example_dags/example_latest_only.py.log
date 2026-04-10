@@ -1,0 +1,102 @@
+[2026-04-01T22:14:31.588+0200] {processor.py:161} INFO - Started process (PID=42883) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:14:31.590+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:14:31.593+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:31.592+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:14:31.609+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:14:31.884+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:31.882+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:latest_only
+[2026-04-01T22:14:31.911+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:31.910+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:latest_only
+[2026-04-01T22:14:31.933+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:31.932+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:latest_only
+[2026-04-01T22:14:31.934+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:31.934+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:14:31.971+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:31.970+0200] {dag.py:3118} INFO - Creating ORM DAG for latest_only
+[2026-04-01T22:14:32.000+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:31.999+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:14:32.081+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.508 seconds
+[2026-04-01T22:15:55.330+0200] {processor.py:161} INFO - Started process (PID=43046) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:15:55.333+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:15:55.336+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:55.335+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:15:55.352+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:15:55.398+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:55.398+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:15:55.453+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:55.452+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:15:55.516+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.207 seconds
+[2026-04-01T22:17:12.367+0200] {processor.py:161} INFO - Started process (PID=43201) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:17:12.371+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:17:12.373+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:12.372+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:17:12.390+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:17:12.445+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:12.444+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:17:12.509+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:12.508+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:17:12.567+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.220 seconds
+[2026-04-01T22:18:24.874+0200] {processor.py:161} INFO - Started process (PID=43349) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:18:24.878+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:18:24.881+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:24.879+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:18:24.900+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:18:24.961+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:24.960+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:18:25.026+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:25.025+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:18:25.104+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.248 seconds
+[2026-04-01T22:20:00.352+0200] {processor.py:161} INFO - Started process (PID=43546) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:20:00.355+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:20:00.357+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:00.356+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:20:00.374+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:20:00.432+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:00.431+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:20:00.491+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:00.490+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:20:00.549+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.213 seconds
+[2026-04-01T22:21:15.325+0200] {processor.py:161} INFO - Started process (PID=43700) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:21:15.339+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:21:15.342+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:15.340+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:21:15.360+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:21:15.423+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:15.423+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:21:15.508+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:15.507+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:21:15.606+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.301 seconds
+[2026-04-01T22:22:27.929+0200] {processor.py:161} INFO - Started process (PID=43849) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:22:27.933+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:22:27.936+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:27.934+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:22:27.955+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:22:28.002+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:28.002+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:22:28.063+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:28.062+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:22:28.140+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.228 seconds
+[2026-04-01T22:23:42.171+0200] {processor.py:161} INFO - Started process (PID=44021) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:23:42.186+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:23:42.189+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:42.188+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:23:42.208+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:23:42.265+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:42.264+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:23:42.325+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:42.325+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:23:42.405+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.254 seconds
+[2026-04-01T22:24:52.990+0200] {processor.py:161} INFO - Started process (PID=44159) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:24:53.004+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:24:53.006+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:53.005+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:24:53.024+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:24:53.072+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:53.071+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:24:53.141+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:53.141+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:24:53.217+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.247 seconds
+[2026-04-01T22:30:50.503+0200] {processor.py:161} INFO - Started process (PID=45753) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:30:50.510+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:30:50.513+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:50.512+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:30:50.532+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:30:50.811+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:50.811+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:30:50.856+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:50.856+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:30:51.149+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.662 seconds
+[2026-04-01T22:32:15.826+0200] {processor.py:161} INFO - Started process (PID=46034) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:32:15.832+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:32:15.835+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:15.833+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:32:15.859+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:32:15.916+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:15.915+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:32:15.982+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:15.981+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:32:16.048+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.243 seconds
+[2026-04-01T22:33:29.604+0200] {processor.py:161} INFO - Started process (PID=46300) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:33:29.608+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:33:29.612+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:29.610+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:33:29.636+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:33:29.718+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:29.717+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:33:29.778+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:29.777+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:33:29.838+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.258 seconds
+[2026-04-01T22:34:36.941+0200] {processor.py:161} INFO - Started process (PID=46498) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:34:36.944+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:34:36.946+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:36.945+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:34:36.962+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:34:37.006+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:37.006+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:34:37.055+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:37.054+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:34:37.112+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.188 seconds
+[2026-04-01T22:36:00.959+0200] {processor.py:161} INFO - Started process (PID=46780) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:36:00.974+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-04-01T22:36:00.978+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:36:00.976+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:36:00.996+0200] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-04-01T22:36:01.063+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:36:01.063+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:36:01.140+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:36:01.138+0200] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-04-01 16:00:00+00:00, run_after=2026-04-01 20:00:00+00:00
+[2026-04-01T22:36:01.219+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.281 seconds

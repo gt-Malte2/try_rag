@@ -1,0 +1,102 @@
+[2026-04-01T22:14:22.854+0200] {processor.py:161} INFO - Started process (PID=42871) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:14:22.857+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:14:22.859+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:22.858+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:14:22.896+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:14:23.198+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:23.197+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2026-04-01T22:14:23.225+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:23.224+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_python_operator
+[2026-04-01T22:14:23.248+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:23.247+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2026-04-01T22:14:23.249+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:23.249+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:14:23.281+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:23.280+0200] {dag.py:3118} INFO - Creating ORM DAG for example_python_operator
+[2026-04-01T22:14:23.283+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:23.282+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:14:23.335+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.496 seconds
+[2026-04-01T22:15:35.669+0200] {processor.py:161} INFO - Started process (PID=43002) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:15:35.674+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:15:35.677+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:35.676+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:15:35.716+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:15:35.783+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:35.782+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:15:35.846+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:35.845+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:15:35.959+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.312 seconds
+[2026-04-01T22:16:51.215+0200] {processor.py:161} INFO - Started process (PID=43151) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:16:51.218+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:16:51.221+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:51.219+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:16:51.249+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:16:51.300+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:51.299+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:16:51.338+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:51.337+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:16:51.393+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.194 seconds
+[2026-04-01T22:18:06.012+0200] {processor.py:161} INFO - Started process (PID=43306) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:18:06.016+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:18:06.020+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:06.018+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:18:06.078+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:18:06.171+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:06.170+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:18:06.214+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:06.213+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:18:06.280+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.291 seconds
+[2026-04-01T22:19:34.425+0200] {processor.py:161} INFO - Started process (PID=43494) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:19:34.438+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:19:34.440+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:34.439+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:19:34.738+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:19:34.776+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:34.776+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:19:34.801+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:34.800+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:19:34.846+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.437 seconds
+[2026-04-01T22:20:54.512+0200] {processor.py:161} INFO - Started process (PID=43653) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:20:54.528+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:20:54.531+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:54.530+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:20:54.564+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:20:54.618+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:54.618+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:20:54.658+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:54.657+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:20:54.743+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.252 seconds
+[2026-04-01T22:22:08.139+0200] {processor.py:161} INFO - Started process (PID=43800) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:22:08.154+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:22:08.156+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:08.155+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:22:08.189+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:22:08.240+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:08.240+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:22:08.287+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:08.286+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:22:08.354+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.233 seconds
+[2026-04-01T22:23:21.295+0200] {processor.py:161} INFO - Started process (PID=43945) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:23:21.309+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:23:21.311+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:21.310+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:23:21.350+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:23:21.407+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:21.406+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:23:21.449+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:21.449+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:23:21.520+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.245 seconds
+[2026-04-01T22:24:33.953+0200] {processor.py:161} INFO - Started process (PID=44120) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:24:33.968+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:24:33.971+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:33.969+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:24:34.004+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:24:34.052+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:34.052+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:24:34.083+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:34.082+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:24:34.152+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.217 seconds
+[2026-04-01T22:30:42.116+0200] {processor.py:161} INFO - Started process (PID=45741) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:30:42.119+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:30:42.121+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:42.120+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:30:42.159+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:30:42.407+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:42.406+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:30:42.434+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:42.434+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:30:42.493+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.393 seconds
+[2026-04-01T22:31:56.373+0200] {processor.py:161} INFO - Started process (PID=45931) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:31:56.377+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:31:56.380+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:56.379+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:31:56.417+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:31:56.484+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:56.484+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:31:56.521+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:56.520+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:31:56.593+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.241 seconds
+[2026-04-01T22:33:07.098+0200] {processor.py:161} INFO - Started process (PID=46254) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:33:07.151+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:33:07.172+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:07.162+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:33:07.370+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:33:07.527+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:07.526+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:33:07.575+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:07.575+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:33:07.643+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.627 seconds
+[2026-04-01T22:34:21.049+0200] {processor.py:161} INFO - Started process (PID=46462) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:34:21.052+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:34:21.055+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:21.054+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:34:21.085+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:34:21.134+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:21.134+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:34:21.165+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:21.164+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:34:21.217+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.187 seconds
+[2026-04-01T22:35:35.077+0200] {processor.py:161} INFO - Started process (PID=46726) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:35:35.081+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-04-01T22:35:35.083+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:35.082+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:35:35.112+0200] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-04-01T22:35:35.474+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:35.473+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:35:35.498+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:35.498+0200] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-04-01T22:35:35.558+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.497 seconds

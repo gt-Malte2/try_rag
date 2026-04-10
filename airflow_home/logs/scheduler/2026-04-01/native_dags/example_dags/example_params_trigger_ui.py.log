@@ -1,0 +1,102 @@
+[2026-04-01T22:14:26.972+0200] {processor.py:161} INFO - Started process (PID=42874) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:14:26.974+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:14:26.976+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:26.975+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:14:27.030+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:14:27.372+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:27.370+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2026-04-01T22:14:27.399+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:27.398+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2026-04-01T22:14:27.420+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:27.418+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2026-04-01T22:14:27.421+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:27.420+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:14:27.457+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:27.456+0200] {dag.py:3118} INFO - Creating ORM DAG for example_params_trigger_ui
+[2026-04-01T22:14:27.459+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:27.458+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:14:27.535+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.579 seconds
+[2026-04-01T22:15:38.770+0200] {processor.py:161} INFO - Started process (PID=43005) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:15:38.773+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:15:38.776+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:38.775+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:15:38.819+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:15:38.927+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:38.926+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:15:38.966+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:38.965+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:15:39.026+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.273 seconds
+[2026-04-01T22:16:55.486+0200] {processor.py:161} INFO - Started process (PID=43160) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:16:55.503+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:16:55.505+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:55.504+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:16:55.551+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:16:55.670+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:55.669+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:16:55.707+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:55.707+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:16:55.770+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.302 seconds
+[2026-04-01T22:18:09.586+0200] {processor.py:161} INFO - Started process (PID=43311) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:18:09.599+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:18:09.602+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:09.601+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:18:09.643+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:18:09.747+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:09.746+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:18:09.779+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:09.778+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:18:09.839+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.270 seconds
+[2026-04-01T22:19:38.974+0200] {processor.py:161} INFO - Started process (PID=43498) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:19:38.989+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:19:38.992+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:38.991+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:19:39.046+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:19:39.154+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:39.153+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:19:39.190+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:39.189+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:19:39.255+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.300 seconds
+[2026-04-01T22:20:57.865+0200] {processor.py:161} INFO - Started process (PID=43656) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:20:57.870+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:20:57.873+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:57.871+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:20:57.933+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:20:58.038+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:58.038+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:20:58.073+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:58.072+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:20:58.154+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.311 seconds
+[2026-04-01T22:22:11.452+0200] {processor.py:161} INFO - Started process (PID=43805) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:22:11.455+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:22:11.457+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:11.456+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:22:11.510+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:22:11.633+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:11.632+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:22:11.665+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:11.664+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:22:11.731+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.297 seconds
+[2026-04-01T22:23:24.864+0200] {processor.py:161} INFO - Started process (PID=43950) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:23:24.879+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:23:24.882+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:24.881+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:23:24.923+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:23:25.039+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:25.038+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:23:25.080+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:25.079+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:23:25.143+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.296 seconds
+[2026-04-01T22:24:37.925+0200] {processor.py:161} INFO - Started process (PID=44124) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:24:37.940+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:24:37.942+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:37.941+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:24:37.991+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:24:38.101+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:38.101+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:24:38.141+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:38.141+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:24:38.207+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.302 seconds
+[2026-04-01T22:30:46.045+0200] {processor.py:161} INFO - Started process (PID=45744) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:30:46.048+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:30:46.051+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:46.050+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:30:46.109+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:30:46.447+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:46.447+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:30:46.468+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:46.468+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:30:46.520+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.491 seconds
+[2026-04-01T22:31:59.976+0200] {processor.py:161} INFO - Started process (PID=45934) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:31:59.981+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:31:59.986+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:59.984+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:32:00.097+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:32:00.330+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:00.326+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:32:00.425+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:00.424+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:32:00.506+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.555 seconds
+[2026-04-01T22:33:10.712+0200] {processor.py:161} INFO - Started process (PID=46263) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:33:10.716+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:33:10.721+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:10.718+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:33:10.790+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:33:10.932+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:10.931+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:33:10.982+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:10.981+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:33:11.068+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.382 seconds
+[2026-04-01T22:34:25.084+0200] {processor.py:161} INFO - Started process (PID=46471) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:34:25.088+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:34:25.091+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:25.090+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:34:25.146+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:34:25.259+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:25.259+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:34:25.291+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:25.291+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:34:25.348+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.281 seconds
+[2026-04-01T22:35:40.063+0200] {processor.py:161} INFO - Started process (PID=46736) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:35:40.067+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-04-01T22:35:40.070+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:40.069+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:35:40.491+0200] {processor.py:840} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-04-01T22:35:40.597+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:40.597+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:35:40.620+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:40.620+0200] {dag.py:3954} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-04-01T22:35:40.673+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.629 seconds

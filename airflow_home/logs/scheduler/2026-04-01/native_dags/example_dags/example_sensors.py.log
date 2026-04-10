@@ -1,0 +1,102 @@
+[2026-04-01T22:14:17.158+0200] {processor.py:161} INFO - Started process (PID=42861) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:14:17.161+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:14:17.162+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:17.162+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:14:17.199+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:14:17.573+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:17.572+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_sensors
+[2026-04-01T22:14:17.598+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:17.597+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_sensors
+[2026-04-01T22:14:17.616+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:17.616+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_sensors
+[2026-04-01T22:14:17.617+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:17.617+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:14:17.642+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:17.641+0200] {dag.py:3118} INFO - Creating ORM DAG for example_sensors
+[2026-04-01T22:14:17.644+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:17.643+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:14:17.693+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.553 seconds
+[2026-04-01T22:15:30.365+0200] {processor.py:161} INFO - Started process (PID=42991) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:15:30.370+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:15:30.373+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:30.371+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:15:30.402+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:15:30.455+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:30.455+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:15:30.484+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:30.483+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:15:30.532+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.187 seconds
+[2026-04-01T22:16:45.935+0200] {processor.py:161} INFO - Started process (PID=43147) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:16:45.950+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:16:45.956+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:45.954+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:16:45.987+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:16:46.060+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:46.059+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:16:46.103+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:46.102+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:16:46.170+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.257 seconds
+[2026-04-01T22:18:00.593+0200] {processor.py:161} INFO - Started process (PID=43294) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:18:00.597+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:18:00.600+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:00.599+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:18:00.628+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:18:00.688+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:00.687+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:18:00.722+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:00.722+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:18:00.778+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.205 seconds
+[2026-04-01T22:19:28.624+0200] {processor.py:161} INFO - Started process (PID=43484) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:19:28.628+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:19:28.630+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:28.629+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:19:28.675+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:19:29.109+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:29.108+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:19:29.142+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:29.141+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:19:29.218+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.615 seconds
+[2026-04-01T22:20:48.808+0200] {processor.py:161} INFO - Started process (PID=43643) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:20:48.812+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:20:48.815+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:48.813+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:20:48.845+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:20:48.914+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:48.914+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:20:48.954+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:48.954+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:20:49.036+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.246 seconds
+[2026-04-01T22:22:02.456+0200] {processor.py:161} INFO - Started process (PID=43790) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:22:02.460+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:22:02.462+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:02.461+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:22:02.492+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:22:02.546+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:02.545+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:22:02.575+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:02.575+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:22:02.638+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.199 seconds
+[2026-04-01T22:23:15.881+0200] {processor.py:161} INFO - Started process (PID=43935) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:23:15.887+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:23:15.890+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:15.889+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:23:15.921+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:23:15.986+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:15.986+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:23:16.020+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:16.019+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:23:16.095+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.237 seconds
+[2026-04-01T22:24:28.071+0200] {processor.py:161} INFO - Started process (PID=44110) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:24:28.076+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:24:28.082+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:28.080+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:24:28.126+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:24:28.216+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:28.215+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:24:28.265+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:28.264+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:24:28.348+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.305 seconds
+[2026-04-01T22:30:36.401+0200] {processor.py:161} INFO - Started process (PID=45731) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:30:36.404+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:30:36.406+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:36.405+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:30:36.434+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:30:36.692+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:36.692+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:30:36.714+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:36.713+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:30:36.771+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.385 seconds
+[2026-04-01T22:31:51.077+0200] {processor.py:161} INFO - Started process (PID=45921) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:31:51.082+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:31:51.085+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:51.084+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:31:51.119+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:31:51.190+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:51.190+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:31:51.225+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:51.225+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:31:51.284+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.234 seconds
+[2026-04-01T22:33:00.680+0200] {processor.py:161} INFO - Started process (PID=46182) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:33:00.684+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:33:00.686+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:00.685+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:33:00.715+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:33:00.775+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:00.774+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:33:00.802+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:00.802+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:33:00.854+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.192 seconds
+[2026-04-01T22:34:15.557+0200] {processor.py:161} INFO - Started process (PID=46452) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:34:15.560+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:34:15.563+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:15.562+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:34:15.590+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:34:15.652+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:15.652+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:34:15.688+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:15.687+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:34:15.746+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.205 seconds
+[2026-04-01T22:35:29.260+0200] {processor.py:161} INFO - Started process (PID=46716) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:35:29.275+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-04-01T22:35:29.278+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:29.276+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:35:29.311+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-04-01T22:35:29.820+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:29.819+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:35:29.846+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:29.845+0200] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-04-01T22:35:29.905+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.675 seconds

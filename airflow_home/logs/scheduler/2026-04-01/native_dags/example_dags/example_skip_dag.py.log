@@ -1,0 +1,109 @@
+[2026-04-01T22:14:10.576+0200] {processor.py:161} INFO - Started process (PID=42845) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:14:10.579+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:14:10.581+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:10.580+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:14:10.602+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:14:10.887+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:10.885+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2026-04-01T22:14:10.914+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:10.913+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2026-04-01T22:14:10.933+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:10.932+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2026-04-01T22:14:10.933+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:10.933+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:14:10.956+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:10.956+0200] {dag.py:3118} INFO - Creating ORM DAG for example_skip_dag
+[2026-04-01T22:14:10.974+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:10.973+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:14:11.017+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.457 seconds
+[2026-04-01T22:15:24.961+0200] {processor.py:161} INFO - Started process (PID=42981) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:15:24.976+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:15:24.978+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:24.977+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:15:24.999+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:15:25.049+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:25.048+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:15:25.105+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:25.104+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:15:25.181+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.239 seconds
+[2026-04-01T22:16:40.496+0200] {processor.py:161} INFO - Started process (PID=43136) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:16:40.510+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:16:40.513+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:40.512+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:16:40.535+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:16:40.591+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:40.590+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:16:40.642+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:40.642+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:16:40.708+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.230 seconds
+[2026-04-01T22:17:55.313+0200] {processor.py:161} INFO - Started process (PID=43282) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:17:55.317+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:17:55.321+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:55.320+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:17:55.349+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:17:55.409+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:55.408+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:17:55.466+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:55.466+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:17:55.529+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.251 seconds
+[2026-04-01T22:19:21.557+0200] {processor.py:161} INFO - Started process (PID=43474) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:19:21.572+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:19:21.575+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:21.573+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:19:21.598+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:19:22.044+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:22.043+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:19:22.089+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:22.088+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:19:22.151+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.614 seconds
+[2026-04-01T22:20:43.872+0200] {processor.py:161} INFO - Started process (PID=43633) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:20:43.876+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:20:43.878+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:43.877+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:20:43.898+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:20:43.951+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:43.951+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:20:44.010+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:44.010+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:20:44.087+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.235 seconds
+[2026-04-01T22:21:57.533+0200] {processor.py:161} INFO - Started process (PID=43778) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:21:57.537+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:21:57.539+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:57.538+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:21:57.565+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:21:57.624+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:57.623+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:21:57.682+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:57.680+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:21:57.765+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.250 seconds
+[2026-04-01T22:23:10.787+0200] {processor.py:161} INFO - Started process (PID=43925) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:23:10.802+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:23:10.804+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:10.803+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:23:10.828+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:23:10.877+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:10.877+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:23:10.930+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:10.929+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:23:11.011+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.245 seconds
+[2026-04-01T22:24:23.834+0200] {processor.py:161} INFO - Started process (PID=44100) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:24:23.840+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:24:23.843+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:23.841+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:24:23.871+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:24:23.930+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:23.930+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:24:23.996+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:23.995+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:24:24.079+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.262 seconds
+[2026-04-01T22:25:34.935+0200] {processor.py:161} INFO - Started process (PID=44276) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:25:34.948+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:25:34.950+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:34.949+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:25:34.972+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:25:35.015+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:35.014+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:25:35.073+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:35.073+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:25:35.131+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.214 seconds
+[2026-04-01T22:30:30.430+0200] {processor.py:161} INFO - Started process (PID=45720) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:30:30.444+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:30:30.447+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:30.446+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:30:30.469+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:30:30.796+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:30.796+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:30:30.841+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:30.840+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:30:30.903+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.488 seconds
+[2026-04-01T22:31:45.741+0200] {processor.py:161} INFO - Started process (PID=45909) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:31:45.745+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:31:45.748+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:45.747+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:31:45.768+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:31:45.815+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:45.814+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:31:45.867+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:45.867+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:31:45.945+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.221 seconds
+[2026-04-01T22:32:56.217+0200] {processor.py:161} INFO - Started process (PID=46116) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:32:56.222+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:32:56.225+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:56.224+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:32:56.257+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:32:56.321+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:56.321+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:32:56.404+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:56.403+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:32:56.476+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.286 seconds
+[2026-04-01T22:34:10.913+0200] {processor.py:161} INFO - Started process (PID=46446) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:34:10.916+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:34:10.919+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:10.918+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:34:10.942+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:34:10.989+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:10.988+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:34:11.035+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:11.035+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:34:11.089+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.195 seconds
+[2026-04-01T22:35:23.532+0200] {processor.py:161} INFO - Started process (PID=46712) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:35:23.536+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2026-04-01T22:35:23.539+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:23.538+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:35:23.564+0200] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2026-04-01T22:35:23.621+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:23.621+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:35:24.019+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:24.018+0200] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:35:24.069+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.555 seconds

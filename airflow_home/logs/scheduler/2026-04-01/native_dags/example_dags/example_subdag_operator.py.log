@@ -1,0 +1,186 @@
+[2026-04-01T22:14:08.872+0200] {processor.py:161} INFO - Started process (PID=42844) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:14:08.876+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:14:08.879+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:08.877+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:14:08.943+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:14:09.257+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:09.256+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2026-04-01T22:14:09.287+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:09.286+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2026-04-01T22:14:09.309+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:09.308+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2026-04-01T22:14:09.309+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:09.309+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:14:09.339+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:09.338+0200] {dag.py:3118} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2026-04-01T22:14:09.340+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:09.340+0200] {dag.py:3118} INFO - Creating ORM DAG for example_subdag_operator
+[2026-04-01T22:14:09.342+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:09.341+0200] {dag.py:3118} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2026-04-01T22:14:09.363+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:09.362+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:14:09.364+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:09.364+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:14:09.365+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:09.365+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:14:09.382+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:09.382+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:14:09.392+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:09.392+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:14:09.397+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:09.397+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:14:09.437+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.582 seconds
+[2026-04-01T22:15:23.732+0200] {processor.py:161} INFO - Started process (PID=42980) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:15:23.738+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:15:23.740+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:23.739+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:15:23.804+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:15:23.852+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:23.851+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:15:23.918+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:23.917+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:15:23.928+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:23.928+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:15:23.930+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:23.930+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:15:23.948+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:23.947+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:15:23.959+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:23.959+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:15:23.960+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:23.960+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:15:24.002+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.290 seconds
+[2026-04-01T22:16:39.165+0200] {processor.py:161} INFO - Started process (PID=43135) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:16:39.169+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:16:39.172+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:39.171+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:16:39.234+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:16:39.284+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:39.282+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:16:39.337+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:39.336+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:16:39.346+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:39.345+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:16:39.348+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:39.348+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:16:39.365+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:39.364+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:16:39.376+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:39.375+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:16:39.377+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:39.377+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:16:39.430+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.283 seconds
+[2026-04-01T22:17:54.091+0200] {processor.py:161} INFO - Started process (PID=43281) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:17:54.106+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:17:54.109+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:54.108+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:17:54.214+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:17:54.279+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:54.278+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:17:54.377+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:54.377+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:17:54.393+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:54.391+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:17:54.397+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:54.396+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:17:54.428+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:54.428+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:17:54.443+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:54.442+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:17:54.445+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:54.444+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:17:54.502+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.433 seconds
+[2026-04-01T22:19:19.651+0200] {processor.py:161} INFO - Started process (PID=43473) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:19:19.656+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:19:19.659+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:19.657+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:19:19.734+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:19:20.225+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:20.224+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:19:20.278+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:20.276+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:19:20.289+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:20.288+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:19:20.292+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:20.291+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:19:20.317+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:20.316+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:19:20.331+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:20.330+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:19:20.333+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:20.332+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:19:20.387+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.758 seconds
+[2026-04-01T22:20:42.371+0200] {processor.py:161} INFO - Started process (PID=43632) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:20:42.386+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:20:42.389+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:42.387+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:20:42.459+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:20:42.545+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:42.544+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:20:42.618+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:42.617+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:20:42.627+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:42.627+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:20:42.630+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:42.629+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:20:42.649+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:42.649+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:20:42.661+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:42.660+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:20:42.662+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:42.662+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:20:42.713+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.364 seconds
+[2026-04-01T22:21:56.058+0200] {processor.py:161} INFO - Started process (PID=43777) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:21:56.074+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:21:56.079+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:56.076+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:21:56.156+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:21:56.206+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:56.205+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:21:56.268+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:56.267+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:21:56.278+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:56.277+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:21:56.280+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:56.280+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:21:56.318+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:56.317+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:21:56.329+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:56.328+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:21:56.330+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:56.330+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:21:56.385+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.355 seconds
+[2026-04-01T22:23:09.539+0200] {processor.py:161} INFO - Started process (PID=43924) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:23:09.553+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:23:09.556+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:09.555+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:23:09.617+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:23:09.659+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:09.658+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:23:09.724+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:09.724+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:23:09.734+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:09.734+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:23:09.736+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:09.736+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:23:09.758+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:09.757+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:23:09.768+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:09.768+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:23:09.770+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:09.769+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:23:09.821+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.300 seconds
+[2026-04-01T22:24:23.328+0200] {processor.py:161} INFO - Started process (PID=44099) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:24:23.336+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:24:23.340+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:23.338+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:24:23.419+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:24:23.467+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:23.466+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:24:23.536+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:23.535+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:24:23.546+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:23.545+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:24:23.549+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:23.548+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:24:23.566+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:23.565+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:24:23.575+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:23.575+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:24:23.576+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:23.576+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:24:23.613+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.307 seconds
+[2026-04-01T22:25:33.337+0200] {processor.py:161} INFO - Started process (PID=44275) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:25:33.344+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:25:33.347+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:33.346+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:25:33.402+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:25:33.440+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:33.439+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:25:33.493+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:33.492+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:25:33.502+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:33.501+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:25:33.509+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:33.509+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:25:33.525+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:33.524+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:25:33.534+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:33.534+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:25:33.535+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:33.535+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:25:33.766+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.447 seconds
+[2026-04-01T22:30:28.877+0200] {processor.py:161} INFO - Started process (PID=45719) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:30:28.882+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:30:28.885+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:28.884+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:30:28.942+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:30:29.254+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:29.254+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:30:29.301+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:29.300+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:30:29.306+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:29.306+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:30:29.308+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:29.308+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:30:29.327+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:29.326+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:30:29.335+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:29.335+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:30:29.336+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:29.336+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:30:29.375+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.515 seconds
+[2026-04-01T22:31:44.218+0200] {processor.py:161} INFO - Started process (PID=45908) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:31:44.224+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:31:44.228+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:44.226+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:31:44.303+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:31:44.348+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:44.347+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:31:44.419+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:44.419+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:31:44.430+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:44.430+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:31:44.433+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:44.433+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:31:44.455+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:44.455+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:31:44.468+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:44.467+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:31:44.469+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:44.468+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:31:44.516+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.322 seconds
+[2026-04-01T22:32:54.706+0200] {processor.py:161} INFO - Started process (PID=46115) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:32:54.711+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:32:54.717+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:54.714+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:32:54.802+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:32:54.846+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:54.845+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:32:54.905+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:54.904+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:32:54.912+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:54.911+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:32:54.915+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:54.915+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:32:54.933+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:54.932+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:32:54.945+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:54.945+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:32:54.947+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:54.946+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:32:54.990+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.309 seconds
+[2026-04-01T22:34:09.524+0200] {processor.py:161} INFO - Started process (PID=46445) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:34:09.527+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:34:09.530+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:09.529+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:34:09.586+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:34:09.620+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:09.620+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:34:09.661+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:09.661+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:34:09.668+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:09.668+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:34:09.679+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:09.679+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:34:09.694+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:09.694+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:34:09.704+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:09.703+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:34:09.705+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:09.705+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:34:09.737+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.229 seconds
+[2026-04-01T22:35:21.642+0200] {processor.py:161} INFO - Started process (PID=46705) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:35:21.647+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2026-04-01T22:35:21.649+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:21.648+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:35:21.721+0200] {processor.py:840} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py
+[2026-04-01T22:35:21.766+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:21.765+0200] {dag.py:3096} INFO - Sync 3 DAGs
+[2026-04-01T22:35:22.290+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:22.290+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2026-04-01T22:35:22.300+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:22.299+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:35:22.303+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:22.302+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:35:22.320+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:22.320+0200] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-04-01T22:35:22.335+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:22.334+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2026-04-01T22:35:22.337+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:22.337+0200] {dag.py:3954} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2026-04-01T22:35:22.377+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py took 0.751 seconds

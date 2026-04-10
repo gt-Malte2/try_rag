@@ -8,15 +8,22 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "layoutparser>=0.3.4",
+    "apache-airflow==2.9.2",
     "pandas>=3.0.2",
     "pdfplumber>=0.11.9",
     "polars>=1.39.3",
     "pydantic>=2.12.5",
     "pydantic-settings>=2.13.1",
-    "unstructured>=0.22.10",
 ]
 
 [build-system]
 requires = ["uv_build>=0.9.11,<0.10.0"]
 build-backend = "uv_build"
+
+[tool.poe.tasks]
+run = { script = "src.try_rag.main:main" }
+
+[dependency-groups]
+dev = [
+    "poethepoet>=0.42.1",
+]

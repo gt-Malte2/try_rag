@@ -1,0 +1,102 @@
+[2026-04-01T22:14:41.936+0200] {processor.py:161} INFO - Started process (PID=42897) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:14:41.940+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:14:41.943+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:41.942+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:14:41.966+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:14:42.352+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:42.350+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_display_name
+[2026-04-01T22:14:42.407+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:42.405+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_display_name
+[2026-04-01T22:14:42.441+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:42.439+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_display_name
+[2026-04-01T22:14:42.443+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:42.442+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:14:42.476+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:42.476+0200] {dag.py:3118} INFO - Creating ORM DAG for example_display_name
+[2026-04-01T22:14:42.478+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:14:42.477+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:14:42.542+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.626 seconds
+[2026-04-01T22:16:05.095+0200] {processor.py:161} INFO - Started process (PID=43061) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:16:05.099+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:16:05.101+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:05.100+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:16:05.117+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:16:05.161+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:05.161+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:16:05.192+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:05.192+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:16:05.256+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.177 seconds
+[2026-04-01T22:17:22.663+0200] {processor.py:161} INFO - Started process (PID=43220) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:17:22.675+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:17:22.679+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:22.677+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:17:22.709+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:17:22.788+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:22.787+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:17:22.832+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:22.832+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:17:22.897+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.267 seconds
+[2026-04-01T22:18:34.830+0200] {processor.py:161} INFO - Started process (PID=43362) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:18:34.834+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:18:34.836+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:34.835+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:18:34.856+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:18:34.907+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:34.906+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:18:34.947+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:34.946+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:18:35.029+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.216 seconds
+[2026-04-01T22:20:09.665+0200] {processor.py:161} INFO - Started process (PID=43569) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:20:09.669+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:20:09.672+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:09.670+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:20:09.688+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:20:09.740+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:09.740+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:20:09.781+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:09.780+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:20:09.851+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.203 seconds
+[2026-04-01T22:21:23.722+0200] {processor.py:161} INFO - Started process (PID=43713) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:21:23.736+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:21:23.738+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:23.737+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:21:23.756+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:21:23.811+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:23.811+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:21:23.846+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:23.845+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:21:23.908+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.204 seconds
+[2026-04-01T22:22:37.549+0200] {processor.py:161} INFO - Started process (PID=43863) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:22:37.562+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:22:37.564+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:37.563+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:22:37.581+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:22:37.623+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:37.623+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:22:37.651+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:22:37.651+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:22:37.709+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.178 seconds
+[2026-04-01T22:23:50.709+0200] {processor.py:161} INFO - Started process (PID=44034) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:23:50.724+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:23:50.728+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:50.726+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:23:50.746+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:23:50.795+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:50.794+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:23:50.828+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:50.828+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:23:50.898+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.209 seconds
+[2026-04-01T22:25:02.456+0200] {processor.py:161} INFO - Started process (PID=44181) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:25:02.461+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:25:02.463+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:02.462+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:25:02.484+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:25:02.550+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:02.549+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:25:02.605+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:02.605+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:25:02.676+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.243 seconds
+[2026-04-01T22:31:01.192+0200] {processor.py:161} INFO - Started process (PID=45793) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:31:01.207+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:31:01.210+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:01.209+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:31:01.226+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:31:01.508+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:01.508+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:31:01.532+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:01.532+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:31:01.996+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.820 seconds
+[2026-04-01T22:32:23.163+0200] {processor.py:161} INFO - Started process (PID=46049) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:32:23.167+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:32:23.169+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:23.168+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:32:23.187+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:32:23.231+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:23.230+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:32:23.258+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:23.257+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:32:23.308+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.159 seconds
+[2026-04-01T22:33:38.581+0200] {processor.py:161} INFO - Started process (PID=46314) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:33:38.585+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:33:38.589+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:38.587+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:33:38.622+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:33:38.689+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:38.689+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:33:38.737+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:38.736+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:33:38.811+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.247 seconds
+[2026-04-01T22:34:44.956+0200] {processor.py:161} INFO - Started process (PID=46511) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:34:44.968+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:34:44.971+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:44.970+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:34:44.995+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:34:45.056+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:45.055+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:34:45.105+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:34:45.104+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:34:45.190+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.262 seconds
+[2026-04-01T22:36:09.055+0200] {processor.py:161} INFO - Started process (PID=46857) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:36:09.059+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-04-01T22:36:09.062+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:36:09.061+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:36:09.080+0200] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-04-01T22:36:09.130+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:36:09.129+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:36:09.165+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:36:09.164+0200] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-04-01T22:36:09.240+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.206 seconds

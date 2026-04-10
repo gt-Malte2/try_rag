@@ -1,0 +1,123 @@
+[2026-04-01T22:13:53.216+0200] {processor.py:161} INFO - Started process (PID=42807) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:13:53.218+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:13:53.221+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:13:53.220+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:13:53.249+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:13:53.655+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:13:53.653+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial
+[2026-04-01T22:13:53.685+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:13:53.684+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial
+[2026-04-01T22:13:53.705+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:13:53.705+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial
+[2026-04-01T22:13:53.706+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:13:53.706+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:13:53.738+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:13:53.738+0200] {dag.py:3118} INFO - Creating ORM DAG for tutorial
+[2026-04-01T22:13:53.765+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:13:53.764+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:13:53.820+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.619 seconds
+[2026-04-01T22:15:12.480+0200] {processor.py:161} INFO - Started process (PID=42965) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:15:12.495+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:15:12.499+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:12.496+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:15:12.536+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:15:12.617+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:12.615+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:15:12.690+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:15:12.689+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:15:12.777+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.316 seconds
+[2026-04-01T22:16:27.702+0200] {processor.py:161} INFO - Started process (PID=43113) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:16:27.705+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:16:27.708+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:27.707+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:16:27.726+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:16:27.770+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:27.769+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:16:27.825+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:16:27.825+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:16:27.887+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.202 seconds
+[2026-04-01T22:17:11.522+0200] {processor.py:161} INFO - Started process (PID=43200) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:17:11.531+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:17:11.539+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:11.537+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:17:11.591+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:17:11.696+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:11.695+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:17:11.846+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:17:11.845+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:17:11.966+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.462 seconds
+[2026-04-01T22:18:23.510+0200] {processor.py:161} INFO - Started process (PID=43348) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:18:23.514+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:18:23.517+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:23.516+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:18:23.539+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:18:23.588+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:23.588+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:18:23.648+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:18:23.647+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:18:23.716+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.230 seconds
+[2026-04-01T22:19:53.676+0200] {processor.py:161} INFO - Started process (PID=43535) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:19:53.680+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:19:53.682+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:53.681+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:19:53.715+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:19:53.778+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:53.778+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:19:53.843+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:19:53.843+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:19:53.913+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.253 seconds
+[2026-04-01T22:20:35.658+0200] {processor.py:161} INFO - Started process (PID=43621) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:20:35.672+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:20:35.674+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:35.673+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:20:35.698+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:20:35.746+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:35.746+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:20:35.809+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:20:35.808+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:20:35.895+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.256 seconds
+[2026-04-01T22:21:50.110+0200] {processor.py:161} INFO - Started process (PID=43766) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:21:50.125+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:21:50.128+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:50.126+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:21:50.152+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:21:50.203+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:50.202+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:21:50.256+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:21:50.256+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:21:50.339+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.247 seconds
+[2026-04-01T22:23:02.744+0200] {processor.py:161} INFO - Started process (PID=43913) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:23:02.748+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:23:02.750+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:02.749+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:23:02.775+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:23:02.822+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:02.821+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:23:02.884+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:23:02.884+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:23:02.949+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.223 seconds
+[2026-04-01T22:24:16.285+0200] {processor.py:161} INFO - Started process (PID=44088) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:24:16.289+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:24:16.291+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:16.290+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:24:16.317+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:24:16.364+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:16.363+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:24:16.424+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:24:16.423+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:24:16.504+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.237 seconds
+[2026-04-01T22:25:26.797+0200] {processor.py:161} INFO - Started process (PID=44233) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:25:26.805+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:25:26.809+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:26.807+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:25:26.889+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:25:26.965+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:26.964+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:25:27.054+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:25:27.054+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:25:27.156+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.439 seconds
+[2026-04-01T22:30:16.558+0200] {processor.py:161} INFO - Started process (PID=45638) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:30:16.570+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:30:16.573+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:16.572+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:30:16.609+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:30:16.635+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:16.634+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:30:16.708+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:30:16.708+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:30:17.074+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.535 seconds
+[2026-04-01T22:31:32.766+0200] {processor.py:161} INFO - Started process (PID=45888) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:31:32.769+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:31:32.772+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:32.770+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:31:32.792+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:31:33.118+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:33.117+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:31:33.172+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:31:33.172+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:31:33.229+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.482 seconds
+[2026-04-01T22:32:43.272+0200] {processor.py:161} INFO - Started process (PID=46094) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:32:43.276+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:32:43.278+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:43.277+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:32:43.305+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:32:43.346+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:43.346+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:32:43.388+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:32:43.387+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:32:43.434+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.177 seconds
+[2026-04-01T22:33:59.148+0200] {processor.py:161} INFO - Started process (PID=46360) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:33:59.152+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:33:59.154+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:59.153+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:33:59.174+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:33:59.220+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:59.219+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:33:59.324+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:33:59.324+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:33:59.390+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.258 seconds
+[2026-04-01T22:35:07.897+0200] {processor.py:161} INFO - Started process (PID=46662) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:35:07.901+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:35:07.904+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:07.903+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:35:07.932+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:35:07.989+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:07.989+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:35:08.354+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:08.353+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:35:08.401+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.528 seconds
+[2026-04-01T22:35:54.252+0200] {processor.py:161} INFO - Started process (PID=46769) to work on /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:35:54.256+0200] {processor.py:830} INFO - Processing file /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2026-04-01T22:35:54.258+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:54.257+0200] {dagbag.py:545} INFO - Filling up the DagBag from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:35:54.279+0200] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2026-04-01T22:35:54.353+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:54.352+0200] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-01T22:35:54.420+0200] {logging_mixin.py:188} INFO - [2026-04-01T22:35:54.419+0200] {dag.py:3954} INFO - Setting next_dagrun for tutorial to 2026-03-31 00:00:00+00:00, run_after=2026-04-01 00:00:00+00:00
+[2026-04-01T22:35:54.488+0200] {processor.py:183} INFO - Processing /home/malte/try_rag/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.258 seconds
